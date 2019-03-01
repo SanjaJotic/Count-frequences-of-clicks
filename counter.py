@@ -5,7 +5,7 @@ import xlrd
 import xlwt
 import collections
 
-file_list = glob.glob(os.path.join(os.getcwd(), "Sirovi podaci 1", "*.txt"))
+file_list = glob.glob(os.path.join(os.getcwd(), "Sirovi podaci", "*.txt"))
 
 videoizlaz = []
 samoprovjera1 = []
